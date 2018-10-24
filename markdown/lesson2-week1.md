@@ -1,6 +1,6 @@
 # 第二门课 改善深层神经网络：超参数调试、正则化以及优化(Improving Deep Neural Networks:Hyperparameter tuning, Regularization and Optimization)
 
-第一周：深度学习的实用层面(Practical aspects of Deep Learning)
+第一周：深度学习的实践层面(Practical aspects of Deep Learning)
 --------------------------------------------------------------
 [TOC]
 ### 1.1 训练，验证，测试集（Train / Dev / Test sets）
@@ -305,7 +305,7 @@ $L2$正则化是最常见的正则化类型，你们可能听说过$L1$正则化
 
 ![](../images/c75fe55c6bc17b60b00f5360aab180f4.png)
 
-如果用**python**实现该算法的话，$d^{[3]}$则是一个布尔型数组，值为**true**和**false**，而不是1和0，乘法运算依然有效，**python**会把**true**和**false**翻译为1和0，大家可以用python尝试一下。
+如果用**python**实现该算法的话，$d^{[3]}$则是一个布尔型数组，值为**true**和**false**，而不是1和0，乘法运算依然有效，**python**会把**true**和**false**翻译为1和0，大家可以用**python**尝试一下。
 
 最后，我们向外扩展$a^{[3]}$，用它除以0.8，或者除以**keep-prob**参数。
 
